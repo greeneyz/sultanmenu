@@ -21,6 +21,95 @@ body {
     body {
       font-size: 16px; } }
 
+/*CANV#AS FLOW*/
+.btncustom {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+
+}
+/*Image on the front page*/
+
+.customcontainer {
+  position: absolute;
+  top:30%;
+  left:30%;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.customcontainer img {
+  width: 50%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.customcontainer .btn {
+  position: absolute;
+  top: 78%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.customcontainer .btn:hover {
+  background-color: black;
+}
+/* Ending */
+
+/*DATAFERRY*/
+.btncustom2 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+
+
+}
+/*Image on the front page*/
+
+.customcontainer2 {
+position: absolute;
+top:39%;
+left:53%;
+width: 50%;
+}
+
+/* Make the image responsive */
+.customcontainer2 img {
+width: 33%;
+height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.customcontainer2 .btn {
+position: absolute;
+top: 92%;
+left: 17%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+background-color: #555;
+color: white;
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.customcontainer2 .btn:hover {
+background-color: black;
+}
+
+/* Ending */
+
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
